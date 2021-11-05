@@ -1,0 +1,35 @@
+.bg-rosa{
+ background-color: #efa6e1;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+  }
+  
+.nav-personal {
+    background-color: #efa6e1;
+    border-radius: 1.5rem;
+    padding: 1rem;
+  }
+  .nav-personal a.btn-menu {
+    background-color: #000000;
+    border: 1px solid #00ff90;
+    padding: 3px;
+    box-shadow: -5px -5px #15001D;
+  }
+  .nav-personal li {
+    margin-left: 2rem;
+  }
+  @media (max-width: 576px) {
+    .nav-personal a.btn-menu {
+      background-color: #432B4D;
+      border: 1px solid #00ff90;
+      box-shadow: 0px 0px #15001D;
+      padding: 3px;
+    }
+    .nav-personal li {
+      margin-left: 0;
+    }
+  }
+  
+  
